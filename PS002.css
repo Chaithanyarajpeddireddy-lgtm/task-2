@@ -39,15 +39,17 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 10pt;
     background: #fff; 
+    padding-bottom: 50px;
 }
 
 footer{
-  height:50px;
-  line-height: 30px;
-  background:#4955a8;
+  position: fixed;
+  bottom: 0;
+  background:#333;
   color:blanchedalmond;
-  font-size: 9pt;
+ width: 100%;
   text-align: center;
+  padding: 8px;
 }
 
 section{
@@ -56,4 +58,37 @@ section{
 }
 header{
     margin-left: 10vw;
+}
+/*
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 8px;
+}
+*/
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
 }
