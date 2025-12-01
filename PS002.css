@@ -1,0 +1,59 @@
+  /*/ *{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+
+.container{
+    background-color: aqua;
+    display: flex;
+}
+.header{
+    background-color: blue;
+    width: 100%;
+    height: 23vh;
+}
+.section{
+    width: 100%;
+    height: 65vh;
+}
+table{
+    width: 100vw;
+    border: 2;
+    border-radius: 12px;
+}
+.footer{
+    width: 100%;
+    height: 12vh;
+    background-color: aliceblue;
+}   */
+
+
+
+
+body{
+    margin: 0;
+    height:100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10pt;
+    background: #fff; 
+}
+
+footer{
+  height:50px;
+  line-height: 30px;
+  background:#4955a8;
+  color:blanchedalmond;
+  font-size: 9pt;
+  text-align: center;
+}
+
+section{
+    height: calc(100%-80px);
+    overflow: auto;
+}
+header{
+    margin-left: 10vw;
+}
